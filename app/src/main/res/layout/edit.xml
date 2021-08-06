@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="30sp"
+        android:id="@+id/close"
+
+        android:layout_height="30sp"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:background="@drawable/ic_close">
+
+    </ImageView>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/name_of_items_to_be_added"
+
+
+        android:layout_centerInParent="true"
+
+        android:layout_height="wrap_content"
+        ></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/edit_items"
+        android:text="Edit_items"
+        android:layout_below="@+id/name_of_items_to_be_added"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+
+        android:layout_height="wrap_content">
+
+    </Button>
+
+</RelativeLayout>
